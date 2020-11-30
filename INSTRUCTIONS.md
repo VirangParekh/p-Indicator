@@ -27,7 +27,7 @@
 
    - `$ SET DATABASE_URL=postgres://postgres:<password_for_superuser>@127.0.0.1:5432/pindicator`
    - `$ SET CELERY_BROKER_URL=redis://localhost:6379/0`
-   - `$ USE_DOCKER=no` (docker not yet setup)
+   - `$ SET USE_DOCKER=no` (docker not yet setup)
 
 7. Run mingrations:
    `$ python manage.py migrate` and run the server using `$ python manage.py runserver`

@@ -1,0 +1,3 @@
+SET DATABASE_URL=postgres://postgres:Viru@2411@127.0.0.1:5432/pindicator
+SET CELERY_BROKER_URL=redis://localhost:6379/0
+SET USE_DOCKER=no
