@@ -18,7 +18,7 @@ urlpatterns = [
     path("users/", include("pindicator.users.urls", namespace="users")),
     path("accounts/", include("allauth.urls")),
     # Your stuff: custom urls includes go here
-    path("indicator/", include("indicator.urls"), name="indicator"),
+    path("indicator/", include("indicatorApp.urls"), name="indicator"),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 if settings.DEBUG:
     # Static file serving when using Gunicorn + Uvicorn for local web socket development
